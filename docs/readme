@@ -1,0 +1,22 @@
+------------
+Vendor Trash
+Beta 0.8
+------------
+
+Created by: Kevin Wells <DarkOppressor@gmail.com>
+See 'docs/LICENSE' for the license that the game and code are under.
+
+-------
+Summary
+-------
+
+Vendor Trash is a game quite similar to Drugwars and other games of that nature. It is one part item trading game, and one part (simple) console-style RPG. You travel about the game world,
+which is currently under attack from one of several randomly generated evil scenario things. You trade items, traveling between different cities, and fighting in turn-based RPG battles
+along the way. From time to time, you are forced to make moral decisions which will have an effect (although currently fairly small) on the world.
+
+----------------
+Installation/Use
+----------------
+
+The game is already a compiled binary, so it should just work.
+If you want to build the source and can't get it working, feel free to email me at the email address listed above, and I will see if I can help you out.

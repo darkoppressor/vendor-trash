@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="MersenneTwister.h" open="0" top="0" tabpos="0">
+		<Cursor position="2910" topLine="0" />
+	</File>
+	<File name="Vendor Trash.rc" open="0" top="0" tabpos="21">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="bank.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="bank.h" open="0" top="0" tabpos="20">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="battle.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="battle.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="buttons.cpp" open="0" top="0" tabpos="26">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="buttons.h" open="0" top="0" tabpos="10">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="city.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="city.h" open="0" top="0" tabpos="14">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="clouds.cpp" open="0" top="0" tabpos="27">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="clouds.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="dialog.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="dialog.h" open="0" top="0" tabpos="18">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="game.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="game.h" open="0" top="0" tabpos="18">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="input.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="input.h" open="0" top="0" tabpos="8">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="items.cpp" open="0" top="0" tabpos="29">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="items.h" open="0" top="0" tabpos="16">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="logic.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="logic.h" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="main.h" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="menus.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="menus.h" open="0" top="0" tabpos="8">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="options.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="options.h" open="0" top="0" tabpos="21">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="player.cpp" open="0" top="0" tabpos="31">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="player.h" open="0" top="0" tabpos="8">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="quit.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="quit.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="random_events.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="random_events.h" open="0" top="0" tabpos="16">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="random_number_generator.cpp" open="0" top="0" tabpos="34">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="random_number_generator.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="scores.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="scores.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="screen_draw.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="10780" topLine="264" />
+	</File>
+	<File name="screen_draw.h" open="0" top="0" tabpos="10">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="sdl.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="sdl.h" open="0" top="0" tabpos="24">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="sprites.cpp" open="0" top="0" tabpos="35">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="sprites.h" open="0" top="0" tabpos="12">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="stats.cpp" open="0" top="0" tabpos="36">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="stats.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="string_input.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="string_input.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="time_of_day.cpp" open="0" top="0" tabpos="38">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="time_of_day.h" open="0" top="0" tabpos="18">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="timer.cpp" open="0" top="0" tabpos="39">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="timer.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="variables.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="variables.h" open="0" top="0" tabpos="11">
+		<Cursor position="623" topLine="0" />
+	</File>
+	<File name="world.cpp" open="0" top="0" tabpos="40">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="world.h" open="0" top="0" tabpos="0">
+		<Cursor position="623" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

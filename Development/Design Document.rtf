@@ -1,0 +1,263 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}
+{\colortbl ;\red0\green176\blue80;\red0\green255\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs20 -The basic premise of this game is this: You play the role of a standard NPC item vendor from any number of RPGs.  The gameplay is like a traditional RPG combined with DrugWars/Dope Wars.\par
+-Title screen:\par
+\tab -Title: Vendor Trash(tentative)\par
+\tab -Created By: Dark_Oppressor\par
+\tab -Now for the menu options:\par
+\tab -Start New Game\cf0\par
+\tab -Options\par
+\tab\tab -Audio:\par
+\tab\tab\tab -Music volume\par
+\tab\tab\tab -Sound effect volume\par
+\tab\cf2\tab\cf1 -Video:\par
+\tab\tab\tab -Fullscreen\par
+\tab -About\par
+\tab\tab -Welcome to Vendor Trash!  In this game, you play the part of an NPC in the world of Aearun.  Aearun is in constant jeopardy, be it from evil tyrants, powerful wizards, or natural disasters.  When a new evil threatens Aearun, a band of brave heroes always rises to meet the challenge.  You, however, have somewhat less lofty goals in life.  You have taken out a loan and set up your very own item shop.  Now, you can travel the world seeking exotic deals and legendary items to trade in the marketplace.\par
+\tab -Quit\par
+-So, we started a new game, what happens?\par
+\tab -You are asked for your name.\par
+\tab -Game starts, you see a little story telling what you are up to.\par
+\tab -You arrive in the first city, and are shown the standard menu.\par
+\tab -You begin with 2000 gold and 100000 gold of debt.\par
+\tab -You may interact with the different menus here, buying and selling items, visiting the bank, etc.\par
+\tab -When ready to travel to another city, you simply click the travel button.\par
+\tab -When travelling, you are placed on an overworld map like that found in many traditional console RPGs.\par
+-Overworld map:\par
+\tab -Real-time movement of character.\par
+\tab -You can see the whole world on this map.\par
+\tab -While walking on the overworld map, the player slowly regains hp, and slowly loses very small amounts of gold.\par
+\tab -There is a random chance every second that the player will encounter a random event.\par
+\tab -The worldmap background is the same every time. However, there are a number of "slots" used for randomly generating the world at the start of each new game. There are city slots, where a \tab fixed number of cities will be placed(more available cities than city slots).\par
+\tab -There are 8 city slots.\par
+-Story:\par
+\tab -<A random catastrophy has occured>, and a hero has risen to the challenge of saving the world.  You, however, have other things to worry about.  You are <player name>, an item vendor \tab hailing from the town of <random town>.\par
+-Menu has two columns:\par
+\tab -Left column:\par
+\tab ---------------------------\par
+\tab |  <Current City>  |\par
+\tab ---------------------------\par
+\tab -<List of items for trade> In this format:\par
+\tab <Number of item in inventory> <Name of item type> <Current price of item>\par
+\tab -Bank | Travel | Stats\par
+\tab -Right column:\par
+\tab ----------------------------------------------------\par
+\tab |<Current time and time remaining>|\par
+\tab ----------------------------------------------------\par
+\tab -Information:\par
+\tab -Gold\par
+\tab -Debt\par
+\tab -Savings\par
+\tab -Inventory\par
+-Cities. Each city has its own city price range for each item type, which is added to the base price. Every city has a bank and a loan office. Each city has a price level, which tells what size the city is, and therefore how much items will generally cost there in relation to other cities. Now, on to the list of cities:\par
+\tab\f1 -Faeor\par
+\tab\tab -Elvish\par
+\tab\tab -Small\par
+\tab -Tathar Unque (Willow Hollow)\par
+\tab\tab -Elvish\par
+\tab\tab -Small\par
+\tab -Adan Edhel'Dwar (Man, Elf, and Dwarf)\par
+\tab\tab -Human\par
+\tab\tab -Small\par
+\tab -Linna\par
+\tab\tab -Human\par
+\tab\tab -Small\par
+\tab -Torden\par
+\tab\tab -Dwarven\par
+\tab\tab -Small\par
+\tab -Thanmar (Small Mountain)\par
+\tab\tab -Dwarven\par
+\tab\tab -Small\par
+\tab\f0 -Aegeria\par
+\tab\tab -Elvish\par
+\tab\tab -Medium\f1\par
+\tab -Ened'Ost (Middle City)\par
+\tab\tab -Elvish\par
+\tab\tab -Medium\par
+\tab -Aear'Ost (Sea City)\par
+\tab\tab -Elvish\par
+\tab\tab -Medium\par
+\f0\tab -Melkor:\par
+\tab\tab -Human\par
+\tab\tab -Medium\f1\par
+\tab -Kiinai\par
+\tab\tab -Human\par
+\tab\tab -Medium\par
+\tab -Dunelm\par
+\tab\tab -Human\par
+\tab\tab -Medium\par
+\tab -Thanamorn (Rest)\par
+\tab\tab -Dwarven\par
+\tab\tab -Medium\par
+\tab -Naenyr (Stone Axe)\par
+\tab\tab -Dwarven\par
+\tab\tab -Medium\par
+\tab -Ketlar\par
+\tab\tab -Dwarven\par
+\tab\tab -Medium\par
+\tab -Vanwa Tol (Lost Isle)\par
+\tab\tab -Elvish\par
+\tab\tab -Large\par
+\tab -Amar En Ar'Gwaith (Home of Royal People)\par
+\tab\tab -Elvish (Capital)\par
+\tab\tab -Large\par
+\tab -Isca\par
+\tab\tab -Human\par
+\tab\tab -Large\par
+\tab -Midgard\par
+\tab\tab -Human (Capital)\par
+\tab\tab -Large\par
+\tab -Magauraun (Black Ale)\par
+\tab\tab -Dwarven (Capital)\par
+\tab\tab -Large\par
+\tab -Tor-Telormar (Soul Forge)\par
+\tab\tab -Dwarven\par
+\tab\tab -Large\par
+City Sizes:\par
+\tab -Small\par
+\tab -Medium\f0\par
+\f1\tab -Large\f0\par
+-Items. Each item type has its own base price range, and the base price is randomly determined every time a new city is visited.  Each item type also has its own fluctuation price range, and this price is also determined randomly when a new city is visited. The fluctuation price for an item is added to its base price, and then the city fluctuation price is added. The city fluctuation price is dependent on the item and the city's size. Next, a global fluctuation price is added. This global fluctuation represents the relationship between the player and world morality. The bigger the different between the player's morality and the world's morality, the bigger the fluctuation.  After this, further modification of item price may take place due to randomly occuring events.\par
+\par
+-Item Price Formula: Base price + item fluctuation + city fluctuation + global fluctuation + random event price = item price for this city on this day.\par
+\par
+-The Item price ranges themselves are determined by a number of formulas:\par
+\tab\f1 -Item base price:\par
+\tab Minimum price = Last max price * 2 + (5 * current item)\par
+\tab Maximum price = Current minimum price * 2 + (5 * current item)\par
+\tab -Item fluctuation price:\par
+\tab Minimum price = Last max price / 2 - (2 * current item)\par
+\tab Maximum price = Current minimum price * -1\par
+\tab -City fluctuation price:\par
+\tab\tab -Small:\par
+\tab\tab Minimum price = Last max price / 2 - (3 * current item)\par
+\tab\tab Maximum price = Current minimum price * -1\par
+\tab\tab -Medium:\par
+\tab\tab Minimum price = Last max price / 2 - (4 * current item)\par
+\tab\tab Maximum price = Current minimum price * -1\par
+\tab\tab -Large:\par
+\tab\tab Minimum price = Last max price / 2 - (5 * current item)\par
+\tab\tab Maximum price = Current minimum price * -1\par
+\tab -Global fluctuation price:\par
+\tab Minimum price = Last max price / 2 - (2 * current item) * (current item * the difference between world and player morality)\par
+\tab Maximum price = Current minimum price * -1\par
+\tab\f0\par
+-Equipment. The player has these equipment slots:\par
+\tab -Weapon\par
+\tab -Armor\par
+-Equipment List:\par
+\tab -Weapons:\par
+\tab\tab -Dagger: 5-10\par
+\tab\tab -Longsword: 11-20\par
+\tab\tab -Broadsword: 21-30\par
+\tab\tab -Warhammer: 31-40\par
+\tab -Armor:\par
+\tab\tab -Leather Jerkin: 1-5\par
+\tab\tab -Suit of bronze: 6-10\par
+\tab\tab -Iron Plate Mail: 11-15\par
+\tab\tab -Enchanted Plate Mail: 16-20\par
+-Battle System. When a battle is triggered (currently just by random event triggers on the world map), a dialog message informs the player that a battle is beginning, and then the battle screen pops up.  Battles are very simple turn-based affairs.\par
+-Player Stats\par
+\tab -Level\par
+\tab\tab -When you level up, you gain a small amount of hp and 5 skill points. Also, you do a small amount of additional damage per level.\par
+\tab -Experience/Max Experience\par
+\tab -Hp/Max HP\par
+\tab\tab -On leveling, you gain 5 health, plus another one health every two levels.\par
+\tab -Skills points. These can be spent on the following stats:\par
+\tab -Travel\par
+\tab\tab -Increases inventory size by five per skill point.\par
+\tab -Haggling\par
+\tab\tab -Once Haggling is 1 or more, there is a small chance(improved by your haggle skill) whenever buying or selling an item that you will gain a small amount of gold(determined by your haggling skill).\par
+\tab -Banking\par
+\tab\tab -Small interest bonus.\par
+\tab -Strength.\par
+\tab\tab -Adds to damage done with weapons.\par
+\tab -Stamina\par
+\tab\tab -Increases hp gain over time while on the overworld map. You gain +1 health regeneration for every two skill points you put into stamina.\par
+\tab -Luck\par
+\tab\tab -Increases the chance for a City Event to occur. Increases the amount of found gold. Decreases the amount of lost gold. Increases the player's chance to escape a battle.\par
+-World generation. When a new game is started, several variables are randomly set to generate a random world.\par
+\tab -Year\par
+\tab -Month\par
+\tab\tab -Yanvar\par
+\tab\tab -Fevral\par
+\tab\tab -Mart\par
+\tab\tab -Aprel\par
+\tab\tab -Mai\par
+\tab\tab -Aeyune\par
+\tab\tab -Aeyule\par
+\tab\tab -Avguust\par
+\tab\tab -Sentyabre\par
+\tab\tab -Oktyabre\par
+\tab\tab -Noyabre\par
+\tab\tab -Dekabre\par
+\tab -Day\par
+\tab -Hour\par
+\tab -Season(Based on month)\par
+\tab\tab -Yanvar-Aprel:Veris\par
+\tab\tab -Mai-Avguust:Aestas\par
+\tab\tab -Sentyabre-Dekabre:Ambru\par
+\tab -Player land. This is the kingdom/territory/land that the player is going to be in throughout their game.\par
+\tab -The Problem\par
+\tab\tab\tab -Evil warlord <random warlord name> has <randomly done something evil>.\par
+\tab\tab\tab\tab -Conquered <random kingdom name>.  Now his vast armies march upon <player land name>!\par
+\tab\tab\tab\tab -Killed <random king name>, the king of <random kingdom name>, in a mad bid for power!\par
+\tab\tab\tab -Evil wizard <random wizard name> has <randomly done something evil>.\par
+\tab\tab\tab\tab -Set a plague of undeath upon <player land name>!\par
+\tab\tab\tab\tab -Begun to collect the pieces of the <powerful artifact>.  If he successfully recovers all of the pieces, he will become unstoppable!\par
+\tab -The Hero\par
+\tab\tab -Hero name\par
+\tab -The good versus evil meter.  This will be a number that starts at 0 for every game.  -10 to 10 will be neutral.  11 to 100 will mean that good is winning.  -100 to -11 will mean that evil is winning.  Not only will the player's decisions sway this variable, but every tick there will be a random chance for a small random addition or subtraction.\par
+\tab -For lack of a better place, I will put this here for now.  The player will have a morality variable that functions in much the same way as the world good vs. evil meter variable.  However, only \tab the player's own choices will change this variable.\par
+-Random events. These should be somewhat rare, but happen often enough that the player will encounter an event at least once whenever he travels straight between two cities.  There will be two main varieties of random event.  City events will occur as the player enters a city, and world events will occur at random intervals while the player travels on the world map.\par
+\tab\f1 -City Events:\par
+\tab\tab -One type of item is not available for trading. 10% chance.\par
+\tab\tab\tab -Plague-infected shipment causes boycott.\par
+\tab\tab\tab -Rumours of a cursed item have discouraged trade in that item.\par
+\tab\tab\tab -Ruling council in city has banned trade of item for the time being.\par
+\tab\tab\tab -Scam halts trade of item for the foreseeable future.\par
+\tab\tab -One type of item is much cheaper. 25% chance.\par
+\tab\tab\tab -Surplus of item flooding the market reduces rate of trade.\par
+\tab\tab\tab -Rumours of a cursed item have cheapened trade in that item.\par
+\tab\tab\tab -Wealthy citizen has donated large number of item to city, trade reduced.\par
+\tab\tab\tab -City has defeated local crime ring, returned a large number of stolen item to city, reducing trade.\par
+\tab\tab -One type of item is much more expensive. 25% chance.\par
+\tab\tab\tab -Wealthy citizen buys all of an item, increasing rate of trade.\par
+\tab\tab\tab -Rumours of a blessed item have increased trade in that item.\par
+\tab\tab\tab -City is suffering from shortage of item, so rate of trade is increased.\par
+\tab\tab\tab -All of an item has been stolen, increasing trade.\par
+\tab\tab -Moral decision. 40% chance.\par
+\tab\tab\tab -While traveling, you come across a man on the side of the road, beaten.\par
+\tab\tab\tab\tab -Bring him along with you to the next city.\par
+\tab\tab\tab\tab -Send for help.\par
+\tab\tab\tab\tab -Beat him some more.\par
+\tab\tab\tab -You discover a cart full of goods alongside the road.\par
+\tab\tab\tab\tab -Search for the owner.\par
+\tab\tab\tab\tab -Do nothing.\par
+\tab\tab\tab\tab -Steal everything in the cart!\par
+\tab\tab\tab -A kindly elderly couple allows you to stay the night in their home.\par
+\tab\tab\tab\tab -Thank them, and give them a little gold.\par
+\tab\tab\tab\tab -Thank them and leave.\par
+\tab\tab\tab\tab -Set their barn on fire.\par
+\tab\tab\tab -You happen across a man who has fallen asleep.\par
+\tab\tab\tab\tab -Wake him and warn him that bandits have been seen in the area.\par
+\tab\tab\tab\tab -Do nothing.\par
+\tab\tab\tab\tab -Rob him blind!\par
+\tab -World Events:\par
+\tab\tab -Moral decision. Same as the City Event of the same name.\par
+\tab\tab -World good vs. evil event. Something has happened that alters the good_vs_evil variable. Let the player know.\par
+\tab\tab\tab -Good:\par
+\tab\tab\tab\tab -The hero has defeated some of EVIL's minions.\par
+\tab\tab\tab\tab -The hero discovered a powerful artifact.\par
+\tab\tab\tab\tab -The hero defeated EVIL in a battle, but EVIL escaped.\par
+\tab\tab\tab\tab -The people of OTHER KINGDOM have risen up to challenge EVIL.\par
+\tab\tab\tab -Evil:\par
+\tab\tab\tab\tab -EVIL has defeated HERO, but HERO managed to survive.\par
+\tab\tab\tab\tab -EVIL has conquered a town in OTHER KINGDOM.\par
+\tab\tab\tab\tab -EVIL is pillaging farms in HOMELAND!\par
+\tab\tab\tab\tab -EVIL has quelled the resistance movement in OTHER KINGDOM for the time being.\par
+\tab\tab -Found equipment, gold, or items.\f0\par
+\tab\tab -Battle\par
+\tab\tab\tab -Randomly chosen opponent, could be bandits, wild animals, etc.\par
+}
+ 

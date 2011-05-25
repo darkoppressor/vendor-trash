@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Vendor Trash" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin\Release\VendorTrash.exe" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="5" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add directory="..\..\SDL\include\SDL" />
+					<Add directory="..\..\SDL\SDL_image\include" />
+					<Add directory="..\..\SDL\SDL_mixer\include" />
+					<Add directory="..\..\SDL\SDL_ttf\include" />
+					<Add directory="..\..\MinGW\lib" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lws2_32" />
+					<Add option="-lmingw32" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-mwindows" />
+					<Add library="..\..\SDL\lib\libSDL.dll.a" />
+					<Add library="..\..\SDL\lib\libSDLmain.a" />
+					<Add library="..\..\SDL\SDL_image\lib\SDL_image.lib" />
+					<Add library="..\..\SDL\SDL_mixer\lib\SDL_mixer.lib" />
+					<Add library="..\..\SDL\SDL_ttf\lib\SDL_ttf.lib" />
+					<Add directory="..\..\SDL\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release-Linux">
+				<Option platforms="Unix;" />
+				<Option output="Vendor Trash" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="5" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add directory="\usr\include\SDL\" />
+					<Add directory="\usr\include\" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add library="\usr\lib64\libSDL.so" />
+					<Add library="\usr\lib64\libSDLmain.a" />
+					<Add library="\usr\lib64\libSDL_image.so" />
+					<Add library="\usr\lib64\libSDL_mixer.so" />
+					<Add library="\usr\lib64\libSDL_ttf.so" />
+					<Add directory="\usr\lib64\" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="..\..\SDL-1.2.13\include\SDL" />
+			<Add directory="..\..\SDL-1.2.13\SDL_image-1.2.7\include" />
+			<Add directory="..\..\SDL-1.2.13\SDL_mixer-1.2.8\include" />
+			<Add directory="..\..\SDL-1.2.13\SDL_ttf-2.0.9\include" />
+			<Add directory="..\..\MinGW\lib" />
+		</Compiler>
+		<Unit filename="MersenneTwister.h" />
+		<Unit filename="Vendor Trash.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="bank.cpp" />
+		<Unit filename="bank.h" />
+		<Unit filename="battle.cpp" />
+		<Unit filename="battle.h" />
+		<Unit filename="buttons.cpp" />
+		<Unit filename="buttons.h" />
+		<Unit filename="city.cpp" />
+		<Unit filename="city.h" />
+		<Unit filename="clouds.cpp" />
+		<Unit filename="clouds.h" />
+		<Unit filename="dialog.cpp" />
+		<Unit filename="dialog.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="input.cpp" />
+		<Unit filename="input.h" />
+		<Unit filename="items.cpp" />
+		<Unit filename="items.h" />
+		<Unit filename="logic.cpp" />
+		<Unit filename="logic.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="menus.cpp" />
+		<Unit filename="menus.h" />
+		<Unit filename="options.cpp" />
+		<Unit filename="options.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="quit.cpp" />
+		<Unit filename="quit.h" />
+		<Unit filename="random_events.cpp" />
+		<Unit filename="random_events.h" />
+		<Unit filename="random_number_generator.cpp" />
+		<Unit filename="random_number_generator.h" />
+		<Unit filename="scores.cpp" />
+		<Unit filename="scores.h" />
+		<Unit filename="screen_draw.cpp" />
+		<Unit filename="screen_draw.h" />
+		<Unit filename="sdl.cpp" />
+		<Unit filename="sdl.h" />
+		<Unit filename="sprites.cpp" />
+		<Unit filename="sprites.h" />
+		<Unit filename="stats.cpp" />
+		<Unit filename="stats.h" />
+		<Unit filename="string_input.cpp" />
+		<Unit filename="string_input.h" />
+		<Unit filename="time_of_day.cpp" />
+		<Unit filename="time_of_day.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.h" />
+		<Unit filename="variables.cpp" />
+		<Unit filename="variables.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
