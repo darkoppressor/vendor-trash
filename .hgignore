@@ -2,6 +2,7 @@ syntax: glob
 bin
 obj
 .objs
-*.cfg
-*.depend
 VendorTrash
+*.depend
+Thumbs.db
+*.cfg
