@@ -271,7 +271,7 @@ void draw_main_menu(){
 
     b_select_menu.show();
 
-    msg_write(10,SCREEN_HEIGHT-35,30,"Version: Beta 0.8",0);
+    msg_write(10,SCREEN_HEIGHT-35,30,"Version: Beta 0.9",0);
 
     /**msg_write(300,SCREEN_HEIGHT-50,18,"Copyright 2010 by Kevin Wells",0);
     msg_write(300,SCREEN_HEIGHT-25,18,"Licensed under the 'Tasty Cheese'-ware License",0);*/
