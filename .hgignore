@@ -1,8 +1,0 @@
-syntax: glob
-bin
-obj
-.objs
-VendorTrash
-*.depend
-Thumbs.db
-*.cfg
