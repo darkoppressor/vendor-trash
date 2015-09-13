@@ -1,5 +1,6 @@
 # vendor-trash
 An item trading game ala Drugwars based in an RPG world
+http://cheeseandbacon.org/vendor-trash/
 
 Vendor Trash is a game quite similar to Drugwars and other games of that nature. It is one part item trading game, and one part (simple) console-style RPG. You travel about the game world, which is currently under attack from one of several randomly generated evil scenario things. You trade items, traveling between different cities, and fighting in turn-based RPG battles along the way. From time to time, you are forced to make moral decisions which will have an effect (although currently fairly small) on the world.
 
